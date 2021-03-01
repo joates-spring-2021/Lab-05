@@ -29,7 +29,7 @@ debateString = debateFile.read()
 debateFile.close()
 
 # This code will extract the data from the stop words file and read it into one big
-# string named StopWordsString
+# string named stopWordsString
 stopWordsFile = open("stopWords.txt", "r")
 stopWordsString = stopWordsFile.read()
 stopWordsFile.close()
